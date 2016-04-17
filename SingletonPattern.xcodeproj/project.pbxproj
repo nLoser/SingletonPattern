@@ -15,6 +15,7 @@
 		A9F7B45A1CB4E41B0096F79C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F7B4581CB4E41B0096F79C /* LaunchScreen.storyboard */; };
 		A9F7B4651CB4E41B0096F79C /* SingletonPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F7B4641CB4E41B0096F79C /* SingletonPatternTests.m */; };
 		A9F7B4701CB4E41B0096F79C /* SingletonPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F7B46F1CB4E41B0096F79C /* SingletonPatternUITests.m */; };
+		A9F7B47F1CB4E42E0096F79C /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F7B47E1CB4E42E0096F79C /* Singleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A9F7B46B1CB4E41B0096F79C /* SingletonPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F7B46F1CB4E41B0096F79C /* SingletonPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonPatternUITests.m; sourceTree = "<group>"; };
 		A9F7B4711CB4E41B0096F79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F7B47D1CB4E42E0096F79C /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		A9F7B47E1CB4E42E0096F79C /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A9F7B44E1CB4E41B0096F79C /* AppDelegate.m */,
 				A9F7B4501CB4E41B0096F79C /* ViewController.h */,
 				A9F7B4511CB4E41B0096F79C /* ViewController.m */,
+				A9F7B47D1CB4E42E0096F79C /* Singleton.h */,
+				A9F7B47E1CB4E42E0096F79C /* Singleton.m */,
 				A9F7B4531CB4E41B0096F79C /* Main.storyboard */,
 				A9F7B4561CB4E41B0096F79C /* Assets.xcassets */,
 				A9F7B4581CB4E41B0096F79C /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9F7B4521CB4E41B0096F79C /* ViewController.m in Sources */,
+				A9F7B47F1CB4E42E0096F79C /* Singleton.m in Sources */,
 				A9F7B44F1CB4E41B0096F79C /* AppDelegate.m in Sources */,
 				A9F7B44C1CB4E41B0096F79C /* main.m in Sources */,
 			);

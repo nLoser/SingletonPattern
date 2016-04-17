@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Singleton.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    Singleton * singleto =  [Singleton shareInstance];
+    
+    singleto.string = @"lvhongyang";
+    singleto.number = [NSNumber numberWithInt:19];
+    singleto.flag   = YES;
+    
     return YES;
 }
 

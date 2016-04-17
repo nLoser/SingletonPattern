@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Singleton.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    Singleton * singleto = [Singleton shareInstance];
+    NSLog(@"%@ %@ %d",singleto.string,singleto.number,singleto.flag);
 }
 
 - (void)didReceiveMemoryWarning {
